@@ -1,0 +1,148 @@
+*{
+    margin: 0px; padding: 0px;
+}
+
+body{
+    font-family: 'Macondo', cursive;
+}
+
+.bloque{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.header{
+    background-image: url('../img/header.fw.png');
+    background-size: 200%;
+    background-repeat: no-repeat
+}
+
+.centrar{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.logo{
+    color: #c1c1c1; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+    
+}
+.menu-principal{
+    width: 60%;
+    float: right;
+    border: 0px solid #fff;
+    background: rgba(0,0,0,0.5);
+    border-radius: 7px;
+    
+    
+}
+
+.menu-principal ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+    
+}
+.menu-principal ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/*-----------izquierda y derecha -----------*/
+
+
+.izquierda, .derecha{
+    width: 48%;
+    height: auto; overflow: hidden;
+    border: 0px solid #fff;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.izquierda{
+    float: left;
+    text-align: left; 
+    
+}
+
+.subtitulo{
+    color: #c1c1c1;
+}
+
+.titulo-principal{
+    color: #fff;
+    font-size: 60px;
+}
+.descripcion{
+    color: #c1c1c1;
+    font-weight: 300;
+}
+
+.botton{
+    padding: 17px 35px;
+    background: #B83131;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+
+.img_pres{
+    width: 70%;
+}
+
+/*--------¿Por que jugar Warhammer?--------*/
+
+.elegir{
+    padding: 50px 0px;
+}
+
+.elegir .derecha{
+    text-align: left;
+}
+.img-elige{
+    width: 90%;
+}
+.elegir .derecha .texto-naranja{
+    color: #f94f2b;
+}
+.elegir .derecha h1{
+    color: #424141;
+    font-size: 35px;
+}
+.elegir .derecha p{
+    color:#7D7A7A;
+    font-weight: 300;
+}
+.opciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.opcion{
+    width: 45%;
+    border: solid 1px #ccc;
+    margin-bottom: 30px;
+    padding: 7px;
+    border-left: 4px solid #df3a01;
+    border-radius: 7px;
+}
+.opcion .img-opciones{
+    width: 20%;
+    float: left;
+}
+.
+
+
+
